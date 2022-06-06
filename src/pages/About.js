@@ -10,7 +10,7 @@ class About extends Component {
         <p className="mvp-points">寵物知識 x 毛孩故事 x 動物似顏繪</p>
         <div className="mvp-stories">
           <MvpStory
-            imgSrc={process.env.PUBLIC_URL + "img/earlysales.jpg"}
+            imgSrc={process.env.PUBLIC_URL + "/img/earlysales.jpg"}
             title="失去與勇敢"
             duration="2021/9~2022/3"
             note="將 100 幅以「失去與勇敢」為主題的手繪創作以 NFT 形式發佈至 Polygon 區塊鏈。"
@@ -18,7 +18,7 @@ class About extends Component {
             link="https://opensea.io/MetaverseArtisan"
           />
           <MvpStory
-            imgSrc={process.env.PUBLIC_URL + "img/oneoffs.jpg"}
+            imgSrc={process.env.PUBLIC_URL + "/img/oneoffs.jpg"}
             title="OneOffs 當代藝術展"
             duration="2021/12/24~2021/12/26"
             note="受邀參與 2021 年底聖誕節檔期的 OneOffs 當代藝術展"
@@ -26,7 +26,7 @@ class About extends Component {
             link="https://youtube.com/shorts/yIhaFhYoJ1Q"
           />
           <MvpStory
-            imgSrc={process.env.PUBLIC_URL + "img/petlectureintro.jpg"}
+            imgSrc={process.env.PUBLIC_URL + "/img/petlectureintro.jpg"}
             title="寵物大講堂"
             duration="2022/2~"
             note="傳遞寵物專業知識的免費線上講座"

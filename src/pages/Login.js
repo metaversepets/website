@@ -32,7 +32,7 @@ class Login extends React.Component {
           <div className="list-group">
             <button type="button" className="login" role="button" onClick={() => this.login()}>
               <span className="walletLogo">
-                <img src={process.env.PUBLIC_URL + "img/metamask.webp"} height="30px" />
+                <img src={process.env.PUBLIC_URL + "/img/metamask.webp"} height="30px" />
               </span>
               <span className="walletName">MetaMask</span>
             </button>

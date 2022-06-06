@@ -44,7 +44,7 @@ class App extends React.Component {
       <HashRouter>
         <header>
           <a href="/" className="navbar-brand">
-            <img src={process.env.PUBLIC_URL + "img/logo_150.png"} className="logo" alt="元宇宙寵物" />
+            <img src={process.env.PUBLIC_URL + "/img/logo_150.png"} className="logo" alt="元宇宙寵物" />
           </a>
           <div className="video-group">
             <NavLink to="/videos">

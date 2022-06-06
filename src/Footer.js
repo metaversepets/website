@@ -8,16 +8,16 @@ class Footer extends Component {
         <div className="social-links">
           <h4>社群追蹤｜Follow Us</h4>
           <a href="https://discord.com/invite/c8BgyUNsJz" target="_blank">
-            <img src={process.env.PUBLIC_URL + "img/social/discord.png"} />
+            <img src={process.env.PUBLIC_URL + "/img/social/discord.png"} />
           </a>
           <a href="https://www.youtube.com/channel/UCGJu_4qHnt52ZwO5HQPPi9Q" target="_blank">
-            <img src={process.env.PUBLIC_URL + "img/social/youtube.png"} />
+            <img src={process.env.PUBLIC_URL + "/img/social/youtube.png"} />
           </a>
           <a href="https://www.instagram.com/metaversepets.game.nft/" target="_blank">
-            <img src={process.env.PUBLIC_URL + "img/social/instagram.png"} />
+            <img src={process.env.PUBLIC_URL + "/img/social/instagram.png"} />
           </a>
           <a href="https://twitter.com/MetaversePets" target="_blank">
-            <img src={process.env.PUBLIC_URL + "img/social/twitter.png"} />
+            <img src={process.env.PUBLIC_URL + "/img/social/twitter.png"} />
           </a>
         </div>
         <div className="warning">

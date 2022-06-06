@@ -9,7 +9,7 @@ class OGPass extends Component {
       <div className="og-pass-mint">
         <Snowflakes />
         <div className="minting">
-          <img src={process.env.PUBLIC_URL + "img/ogpass.png"} className="og-pass" alt="OG Pass" />
+          <img src={process.env.PUBLIC_URL + "/img/ogpass.png"} className="og-pass" alt="OG Pass" />
           <div className="og-pass-usage">
             <ul>
               <li>支持社群持續提供「寵物大講堂」免費直播課程</li>

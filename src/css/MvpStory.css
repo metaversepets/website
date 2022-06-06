@@ -1,7 +1,6 @@
 .mvp-story-item {
   display: table;
   margin: 15px 15px 15px 0;
-  width: 90%;
 }
 
 .mvp-story-img {
@@ -25,6 +24,7 @@
 
 .mvp-story-highlight {
   color: #DAA520;
+  line-height: 1.5em;
 }
 
 .mvp-story-link {

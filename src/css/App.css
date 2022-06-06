@@ -34,17 +34,17 @@ input:checked ~ .menu-list {
 
 label {
   float: left;
-  background-color: #fff;
-  width: 50px;
+  background-color: #1b2735;
+  color: #fff;
+  width: 35px;
   text-align: center;
-  max-height: 100%;
+  max-height: 90%;
   display: block;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 23px;
+  padding-bottom: 23px;
 }
 
 .menu-list {
-  float: left;
   clear: both;
   background: #fff;
   max-height: 0;
@@ -76,6 +76,10 @@ label {
   transition: .5s;
 }
 
+.navbar-brand img {
+  width: 90%;
+}
+
 @media screen and (min-width: 768px) {
   label {
     display: none;
@@ -84,13 +88,12 @@ label {
     margin-top: 1%;
   }
   .menu-list {
-    float: left;
     clear: none;
     max-height: 100%;
     background: none;
     vertical-align: middle;
     top: auto;
-    left: auto;
+    left: 150px;
   }
   .menu-list li {
     display: inline-block;
@@ -100,13 +103,16 @@ label {
     padding: 0 15px;  
     color: #fff;
   }
+  .navbar-brand img {
+    width: 100%;
+  }
 }
 
 .video-group {
   float: right;
   position: absolute;
   top: 15px;
-  right: 15px;
+  right: 20px;
 }
 
 .video-button {
@@ -125,7 +131,7 @@ label {
   line-height: 20px;
   outline: none;
   overflow: visible;
-  padding: 13px 16px;
+  padding: 10px 16px;
   text-align: center;
   text-transform: uppercase;
   touch-action: manipulation;
@@ -136,6 +142,7 @@ label {
   vertical-align: middle;
   white-space: nowrap;
   width: 100%;
+  color: #000;
 }
 
 .video-button:after {

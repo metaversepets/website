@@ -6,12 +6,17 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
+import fontawesome from '@fortawesome/fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/fontawesome-free-solid'
 import OGPass from "./pages/OGPass";
 import PetLecture from "./pages/PetLecture";
 import PetArt from "./pages/PetArt";
 import About from "./pages/About";
 import Login from "./pages/Login";
 import Video from "./pages/Video";
+
+fontawesome.library.add(faBars);
 
 class App extends React.Component {
   constructor(props) {
@@ -43,9 +48,6 @@ class App extends React.Component {
     return (
       <HashRouter>
         <header>
-          <a href="/" className="navbar-brand">
-            <img src={process.env.PUBLIC_URL + "/img/logo_150.png"} className="logo" alt="元宇宙寵物" />
-          </a>
           <div className="video-group">
             <NavLink to="/videos">
               <button className="video-button" role="button">課程影片</button>
@@ -55,7 +57,7 @@ class App extends React.Component {
             <NavLink to="/login">{ localStorage.getItem("walletAddress") || "登入/登出" }</NavLink>
           </div>
           <nav className="menu">
-            <label for="switch">三</label>
+            <label for="switch"><FontAwesomeIcon icon="fa-solid fa-bars" /></label>
             <input type="checkbox" id="switch" />
             <ul className="menu-list">
               <li className="navitem">
@@ -69,6 +71,9 @@ class App extends React.Component {
               </li>
             </ul>
           </nav>
+          <a href="/" className="navbar-brand">
+            <img src={process.env.PUBLIC_URL + "/img/logo_150.png"} className="logo" alt="元宇宙寵物" />
+          </a>
         </header>
         <div id="content">
           <Routes>

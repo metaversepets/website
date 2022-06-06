@@ -1,7 +1,23 @@
 .pet-lectures {
-  margin-top: 30px;
-  width: 75%;
+  margin-top: 10px;
+  width: 90%;
   text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .pet-lectures {
+    margin-top: 30px;
+    width: 75%;
+  }
+}
+
+.pet-lectures h2 {
+  font-size: 20pt;
+}
+
+.pet-lectures h4 {
+  font-size: 15pt;
+  line-height: 1.8em;
 }
 
 .pet-lectures p {

@@ -1,13 +1,30 @@
 .mvp-about {
-  margin-top: 30px;
-  width: 75%;
+  margin-top: 10px;
+  width: 90%;
   text-align: left;
 }
 
+@media screen and (min-width: 768px) {
+  .mvp-about {
+    margin-top: 30px;
+    width: 75%;
+  }
+}
+
+.mvp-about h2 {
+  font-size: 20pt;
+}
+
 .mvp-points {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 0;
   color: #DAA520;
+}
+
+@media screen and (min-width: 768px) {
+  .mvp-points {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
 
 .mvp-about p {

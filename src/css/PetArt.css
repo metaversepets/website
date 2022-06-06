@@ -1,0 +1,14 @@
+.happy-img {
+  width: 160px;
+  margin: 0px auto;
+  animation: Updown 1s infinite alternate;
+}
+
+@keyframes Updown {
+  from {
+    margin-top: 30px;
+  }
+  to {
+    margin-top: 10px;
+  }
+}

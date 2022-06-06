@@ -1,0 +1,20 @@
+.mvp-about {
+  margin-top: 30px;
+  width: 75%;
+  text-align: left;
+}
+
+.mvp-points {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #DAA520;
+}
+
+.mvp-about p {
+  font-size: 12pt;
+}
+
+.pl-items {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}

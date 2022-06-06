@@ -1,0 +1,51 @@
+.links-section {
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  display: block;
+  padding: 50px 50px;
+}
+
+.warning h4 {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.warning p {
+  font-size: 10pt;
+  line-height: 15pt;
+}
+
+.empty-area {
+  display: none;
+}
+
+.social-links {
+  margin-bottom: 15px;
+}
+
+.social-links img {
+  margin: 15px 3px;
+  width: 30px;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .links-section {
+    display: flex;
+    padding: 100px 0;
+  }
+
+  .warning {
+    margin-left: 100px;
+    width: 25%;
+  }
+
+  .empty-area {
+    width: 20%;
+  }
+
+  .social-links {
+    width: 25%;
+    position: absolute;
+    right: 100px;
+  }
+}

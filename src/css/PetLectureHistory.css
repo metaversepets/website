@@ -1,0 +1,41 @@
+.pet-lecture-item {
+  display: table;
+  margin: 15px;
+  width: 90%;
+}
+
+.pet-lecture-img {
+  margin-right: 25px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .pet-lecture-img {
+    float: left;
+    width: 250px;
+  }
+}
+
+.pet-lecture-content {
+  padding-top: 5px;
+}
+
+.pet-lecture-title {
+  margin: 15px 0;
+}
+
+.pet-lecture-description {
+  text-indent: 2em;
+  line-height: 1.8em;
+}
+
+.pet-lecture-notice {
+  color: #DAA520;
+}
+
+.join-group {
+  margin: 10px 0;
+  text-align: right;
+}

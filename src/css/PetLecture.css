@@ -1,0 +1,15 @@
+.pet-lectures {
+  margin-top: 30px;
+  width: 75%;
+  text-align: left;
+}
+
+.pet-lectures p {
+  font-size: 12pt;
+  line-height: 1.8em;
+}
+
+.pl-items {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}

@@ -7,6 +7,17 @@ class Video extends Component {
     return (
       <div className="videos">
         <VideoPlayer
+          videoId="series3lesson1"
+          videoName="第一堂：航向偉大航道——同理與務實的去浪課題"
+          seriesName="壓力山大！寵物壓力與減壓安心講座"
+          date="2022/6/12"
+          imgSrc={process.env.PUBLIC_URL + "/img/videos/series_3_lesson_1.jpg"}
+          videoLink="https://www.youtube.com/embed/sFYUhjnKNq8"
+          teacher="劉晉佑 (毛頭)"
+          teacherInfos={["台灣之心愛護動物協會執行長"]}
+          needOgPass={false}
+        />
+        <VideoPlayer
           videoId="series2lesson1"
           videoName="第一堂：新手飼主須知，寵物訓練的目的與台灣狗醫生介紹"
           seriesName="主子聽我說！貓狗行為訓練講座"

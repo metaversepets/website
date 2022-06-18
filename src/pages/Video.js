@@ -8,7 +8,7 @@ class Video extends Component {
       <div className="videos">
         <VideoPlayer
           videoId="series3lesson1"
-          videoName="第一堂：航向偉大航道——同理與務實的去浪課題"
+          videoName="第一堂：航向偉大的旅程——同理與務實的去浪課題"
           seriesName="壓力山大！寵物壓力與減壓安心講座"
           date="2022/6/12"
           imgSrc={process.env.PUBLIC_URL + "/img/videos/series_3_lesson_1.jpg"}
@@ -24,8 +24,8 @@ class Video extends Component {
           date="2022/4/10"
           imgSrc={process.env.PUBLIC_URL + "/img/videos/series_2_lesson_1.jpg"}
           videoLink="https://www.youtube-nocookie.com/embed/26DO2qIZ4AI"
-          teacher="台灣狗醫生協會"
-          teacherInfos={["2001 年正式成立", "台灣早期推廣正向行為訓練的團體"]}
+          teacher="晴天媽訓練師"
+          teacherInfos={["台灣狗醫生協會"]}
           needOgPass={false}
         />
         <VideoPlayer

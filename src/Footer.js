@@ -13,6 +13,9 @@ class Footer extends Component {
           <a href="https://www.youtube.com/channel/UCGJu_4qHnt52ZwO5HQPPi9Q" target="_blank">
             <img src={process.env.PUBLIC_URL + "/img/social/youtube.png"} />
           </a>
+          <a href="https://www.facebook.com/metaversepets" target="_blank">
+            <img src={process.env.PUBLIC_URL + "/img/social/facebook.png"} />
+          </a>
           <a href="https://www.instagram.com/metaversepets.game.nft/" target="_blank">
             <img src={process.env.PUBLIC_URL + "/img/social/instagram.png"} />
           </a>
